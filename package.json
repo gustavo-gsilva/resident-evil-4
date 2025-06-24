@@ -1,5 +1,4 @@
 {
-  "homepage": "https://gustavo-gsilva.github.io/resident-evil-4/",
   "name": "resident-evil-4",
   "private": true,
   "version": "0.0.0",
@@ -8,9 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
@@ -34,7 +31,6 @@
     "globals": "^16.0.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.10",
-    "vite": "^6.3.5",
-    "vite-plugin-gh-pages": "^1.0.1"
+    "vite": "^6.3.5"
   }
 }
