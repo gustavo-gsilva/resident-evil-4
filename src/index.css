@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+html {
+   font-size: 62.15%;
+   font-family: 'Roboto Condensed', sans-serif;
+   scroll-behavior: smooth;
+
+   /* Para navegadores WebKit (Chrome, Edge, Safari) */
+   ::-webkit-scrollbar {
+      width: 17px;
+   }
+
+   /* Cor do fundo da barra */
+   ::-webkit-scrollbar-track {
+      background: #3d3b3b;
+   }
+
+   /* cor do thumb (O marcador da barra) */
+   ::-webkit-scrollbar-thumb {
+      background-color: #000000;
+      border-radius: 5px;
+   }
+}
+
+body {
+   overflow-x: hidden;
+}
+
+* {
+   box-sizing: border-box;
+}
